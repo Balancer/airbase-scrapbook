@@ -11,6 +11,7 @@
                    NS1:title="Проверенные в Сирии российские роботы готовы выйти на мировой рынок воор"
                    NS1:comment="#Россия #танки #роботы" />
   <RDF:Seq RDF:about="urn:scrapbook:item20160919183906">
+    <RDF:li RDF:resource="urn:scrapbook:item20160919183341"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20160919183906"
                    NS1:id="20160919183906"
@@ -21,11 +22,10 @@
                    NS1:source=""
                    NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
-    <RDF:li RDF:resource="urn:scrapbook:item20160919183341"/>
     <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
-    <RDF:li RDF:resource="urn:scrapbook:item20160919183906"/>
   </RDF:Seq>
   <RDF:Seq RDF:about="urn:scrapbook:item20160919183846">
+    <RDF:li RDF:resource="urn:scrapbook:item20160919183906"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20160919183846"
                    NS1:id="20160919183846"
