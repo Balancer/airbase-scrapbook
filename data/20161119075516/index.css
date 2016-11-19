@@ -1,0 +1,246 @@
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=2.6.0 ::::: */
+
+#lang_sel li::before { content: "" ! important; }
+#lang_sel_footer { margin: 0px; padding: 7px; text-align: center; font: 11px Verdana,sans-serif; min-height: 15px; clear: both; background-color: rgb(255, 255, 255); border: 1px solid rgb(205, 205, 205); }
+#lang_sel_footer ul { list-style: outside none none; margin: 0px; padding: 0px; }
+#lang_sel_footer ul li img { position: relative; top: 1px; width: 18px; height: 12px; }
+#lang_sel_footer ul li { display: inline; margin: 0px 1px 0px 0px; padding: 0px; white-space: nowrap; line-height: 25px; }
+#lang_sel_footer ul li a, #lang_sel_footer ul li a:visited { text-decoration: none; padding: 5px 10px; }
+#lang_sel_footer ul li a:hover, #lang_sel_footer ul li a:active {  }
+#lang_sel_list li::before { content: "" ! important; }
+/* ::::: http://chornobyl.in.ua/wp-content/themes/arras-theme/css/blueprint/screen.css ::::: */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+body { line-height: 1.5; }
+table { border-collapse: separate; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; }
+table, td, th { vertical-align: middle; }
+blockquote::before, blockquote::after, q::before, q::after { content: ""; }
+a img { border: medium none; }
+html { font-size: 100.01%; }
+body { font-size: 75%; color: rgb(34, 34, 34); background: rgb(255, 255, 255) none repeat scroll 0% 0%; font-family: "Helvetica Neue",Arial,Helvetica,sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; color: rgb(17, 17, 17); }
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+p { margin: 0px 0px 1.5em; }
+a:focus, a:hover { color: rgb(0, 0, 0); }
+a { color: rgb(0, 0, 153); text-decoration: underline; }
+strong { font-weight: bold; }
+em, dfn { font-style: italic; }
+abbr, acronym { border-bottom: 1px dotted rgb(102, 102, 102); }
+pre, code, tt { font: 1em/1.5 "andale mono","lucida console",monospace; }
+li ul, li ol { margin: 0px; }
+ul, ol { margin: 0px 1.5em 1.5em 0px; padding-left: 3.333em; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+table { margin-bottom: 1.4em; width: 100%; }
+th, td, caption { padding: 4px 10px 4px 5px; }
+label { font-weight: bold; }
+input[type="text"], input[type="password"], input.text, input.title, textarea, select { background-color: rgb(255, 255, 255); border: 1px solid rgb(187, 187, 187); }
+input[type="text"]:focus, input[type="password"]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus { border-color: rgb(102, 102, 102); }
+input[type="text"], input[type="password"], input.text, input.title, textarea, select { margin: 0.5em 0px; }
+textarea { width: 390px; height: 250px; padding: 5px; }
+input[type="checkbox"], input[type="radio"], input.checkbox, input.radio { position: relative; top: 0.25em; }
+.clearfix::after, .container::after { content: " "; display: block; height: 0px; clear: both; visibility: hidden; overflow: hidden; }
+.clearfix, .container { display: block; }
+/* ::::: http://chornobyl.in.ua/wp-content/themes/arras-theme/css/styles/legacy.css ::::: */
+
+body { background-color: rgb(240, 240, 240); color: rgb(51, 51, 51); font: 12px "Lucida Grande",Arial,Helvetica,sans-serif; height: 100%; min-height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: rgb(30, 27, 26); }
+.clearfix::after { clear: both; content: "."; display: block; height: 0px; line-height: 0; visibility: hidden; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+:focus {  }
+a, a:link, a:visited { color: rgb(0, 82, 163); text-decoration: underline; }
+a:hover { color: rgb(26, 141, 255); }
+p { line-height: 1.5em; margin: 0px 0px 1.25em; }
+code { background: rgb(234, 234, 234) none repeat scroll 0% 0%; color: rgb(51, 51, 51); font-family: Consolas,Monaco,Courier,monospace; font-size: 11px; margin: 1px 0px; padding: 1px 3px; }
+input[type="text"], input[type="password"], textarea { background: rgb(255, 255, 255) url('form.jpg') repeat-x scroll center top; border: 1px solid rgb(204, 204, 204); padding: 3px; }
+input[type="submit"], #wp-email-submit { font-family: "Lucida Grande",Arial,Helvetica,sans-serif; background: transparent url('feed-title-white.jpg') repeat-x scroll 0% 0%; border: 1px solid rgb(204, 204, 204); padding: 5px 10px; font-size: 12px; color: rgb(0, 0, 0); font-weight: bold; }
+input[type="submit"]:hover, #wp-email-submit:hover { background: rgb(49, 78, 106) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+table { border-collapse: collapse; border-spacing: 0px; border: 1px solid rgb(204, 204, 204); }
+th, td { padding: 5px; border: 1px solid rgb(204, 204, 204); }
+td, tbody td { background: rgb(240, 240, 240) none repeat scroll 0% 0%; }
+.alignleft { float: left; margin: 0px 1em 1em 0px; }
+.floatleft { float: left; }
+.floatright { float: right; }
+.sub { font-size: 11px; color: rgb(132, 132, 133); }
+.wp-caption { border: 1px solid rgb(221, 221, 221); text-align: center; background: rgb(243, 243, 243) none repeat scroll 0% 0%; padding-top: 4px; margin: 10px; }
+.wp-caption img { margin: 0px; padding: 0px; border: medium none; }
+.wp-caption .wp-caption-text { font-size: 11px; line-height: 17px; padding: 0px 4px 5px; margin: 0px; }
+.tags a:link, .tags a:visited { font-weight: bold; text-decoration: none; padding: 0px 2px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-bottom: 3px; }
+.xoxo { padding: 0px; }
+#wrapper { min-height: 100%; position: relative; }
+#outer { padding: 20px 0px; }
+#main { padding: 10px 10px 0px; background: rgb(245, 245, 245) none repeat scroll 0% 0%; border: 1px solid rgb(204, 204, 204); }
+#header { background: rgb(30, 27, 26) none repeat scroll 0% 0%; border-bottom: 5px solid rgb(56, 51, 50); padding: 0px; }
+#branding { width: 980px; margin: 0px auto; padding: 0px 0px 20px; }
+.logo { max-width: 590px; float: left; margin: 21px 0px 0px 10px; }
+.blog-name { font-family: "Segoe UI",Arial,Helvetica,sans-serif; font-size: 22px; margin: 0px 0px 3px; line-height: 1em; display: block; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; }
+.blog-name a:link, .blog-name a:visited { color: rgb(255, 255, 255); text-decoration: none; }
+.blog-description { font-family: "Segoe UI",Arial,Helvetica,sans-serif; line-height: 1em; display: block; font-size: 11px; font-weight: bold; color: rgb(125, 113, 109); margin: 0px; padding: 3px 0px 0px; text-transform: uppercase; }
+#nav { max-height: 32px; background: rgb(229, 229, 229) url('postbar.jpg') repeat-x scroll center top; border: 1px solid rgb(204, 204, 204); }
+#nav-content { margin: 0px auto; width: 978px; }
+.sf-menu { font-weight: bold; max-width: 770px; }
+.sf-menu, .sf-menu ul { float: left; list-style: outside none none; line-height: 31px; padding: 0px 0px 2px; margin: 0px; height: 32px; }
+.sf-menu a { display: block; text-decoration: none; padding: 0px 10px; color: rgb(119, 119, 119); font-size: 12px; }
+.sf-menu a:hover { color: rgb(0, 0, 0); }
+.sf-menu li.sfhover, .sf-menu li:hover { background: rgb(255, 255, 255) url('content-bg.jpg') repeat-x scroll center top; }
+.sf-menu li { float: left; padding: 0px; }
+.sf-menu ul { position: absolute; left: -999em; height: auto; width: 150px; margin: 0px; line-height: 1; border: medium none; }
+.sf-menu li li { width: 148px; }
+.sf-menu li li a { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 7px 10px; width: 128px; font-size: 12px; text-transform: none; }
+.sf-menu li:hover ul, .sf-menu li li:hover ul, .sf-menu li li li:hover ul, .sf-menu li li li li:hover ul, .sf-menu li.sfhover ul, .sf-menu li li.sfhover ul, .sf-menu li li li.sfhover ul, .sf-menu li li li li.sfhover ul { left: auto; z-index: 2; }
+.sf-menu li ul li:hover a, .sf-menu li ul li li:hover a, .sf-menu li ul li li li:hover a, .sf-menu li ul li li li:hover a { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(119, 119, 119); }
+.sf-menu li:hover li a, .sf-menu li li:hover li a, .sf-menu li li li:hover li a, .sf-menu li li li li:hover li a { background: rgb(245, 245, 245) none repeat scroll 0% 0%; color: rgb(102, 102, 102); font-size: 11px; }
+.quick-nav { float: right; list-style: outside none none; margin: 0px; padding: 0px; }
+.quick-nav li { padding: 7px 5px 0px 0px; float: left; display: inline; }
+.quick-nav a:link, .quick-nav a:visited { display: block; text-indent: -9000px; width: 16px; height: 16px; float: left; clear: left; }
+.quick-nav #rss { background: transparent url('rss.png') no-repeat scroll 0% 0%; }
+.quick-nav #twitter { background: transparent url('twitter.png') no-repeat scroll 0% 0%; }
+#searchbar { float: right; overflow: hidden; margin: 25px 0px 0px; }
+.searchform .s { font-family: "Lucida Grande",Arial,Helvetica,sans-serif; font-size: 14px; border: medium none; background: rgb(239, 239, 239) none repeat scroll 0% 0%; padding: 6px 3px 5px; margin: 1px 5px 0px 0px; float: left; width: 250px; }
+.searchform .searchsubmit { float: left; cursor: pointer; border: 1px solid rgb(51, 51, 51); background: transparent url('postbar.gif') repeat-x scroll 0% 0%; color: rgb(255, 255, 255); }
+.searchform .searchsubmit:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(56, 51, 50); }
+.sidebar .xoxo { list-style: outside none none; padding: 0px; margin: 0px; }
+.widgetcontainer ul, .widgetcontent .xoxo, .widgetcontainer ol { list-style: outside none disc; margin: 0px 0px 0px 15px; padding: 0px; }
+.widgetcontainer li { margin: 3px 0px; }
+.widgetcontainer li a:visited, .widgetcontainer li a:link { text-decoration: none; font-weight: bold; font-size: 12px; }
+.widgetcontainer li a:hover { border-bottom: 1px dotted rgb(99, 89, 87); }
+.widgetcontainer input[type="text"], .widgetcontainer input[type="password"] { width: 80%; }
+.widgetcontainer .excerpt { font-size: 11px; margin: 5px 0px; }
+.widgettitle { color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; margin: 0px; padding: 6px 10px; background: rgb(239, 239, 239) url('feed-title-white.jpg') repeat-x scroll center top; border: 1px solid rgb(204, 204, 204); }
+.widgetcontent { border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px 1px; background: rgb(255, 255, 255) url('content-bg.jpg') repeat-x scroll center top; margin-bottom: 10px; padding: 10px; line-height: 1.4em; }
+.attachment-sidebar-thumb, .multi-sidebar .recentcomments .avatar { float: left; border: 3px solid rgb(204, 204, 204); width: 36px; height: 36px; margin: 0px 10px 0px 0px; }
+.sidebar-read-more:link, .sidebar-read-more:visited { font-size: 11px ! important; text-transform: uppercase; font-weight: bold; color: rgb(0, 0, 0); }
+.multi-sidebar .widgetcontainer ul, .featured-stories, .related-posts { list-style: outside none none ! important; margin: 0px 0px 0px 5px ! important; }
+.multi-sidebar .widgetcontainer li, .featured-stories li, .related-posts li { padding: 0px 0px 10px; margin: 0px 0px 10px; border-bottom: 1px dotted rgb(204, 204, 204); }
+.single .post, .single-post { background: rgb(255, 255, 255) url('content-bg.jpg') repeat-x scroll center top; border: 1px solid rgb(204, 204, 204); margin: 0px 10px 10px 0px; padding: 0px 15px; }
+.single .post .entry-title, .single-post .entry-title { font-size: 22px; font-weight: bold; padding: 10px 0px 0px; margin: 10px 0px 5px; }
+.single .post .entry-title a:link, .single .post .entry-title a:visited, .single-post .entry-title a:link, .single-post .entry-title a:visited { text-decoration: none; }
+.single .post .entry-info, .single-post .entry-info { margin-bottom: 15px; color: rgb(132, 132, 133); }
+.single .post .entry-cat, .single-post .entry-cat { display: block; color: rgb(132, 132, 133); margin: 5px 0px; }
+.single .post .tags, .single-post .tags { display: block; margin: 5px 0px; color: rgb(132, 132, 133); }
+.single .post .entry-photo, .single-post .entry-photo { width: 616px; margin: 10px 0px; overflow: hidden; border: 1px solid rgb(204, 204, 204); }
+.single .post .entry-content, .single-post .entry-content { margin: 20px 0px; font-size: 12px; }
+.single .post .entry-content p, .single-post .entry-content p { line-height: 1.8em; }
+.entry-content ul, .entry-content ol { padding: 0px 1.5em 0.5em; }
+.entry-content ul li, .entry-content ol li { margin: 0.5em 0px; }
+.entry-content h3 { font-size: 16px; }
+.single-post { padding: 0px 10px; }
+.module-title, .feed-title { line-height: 1em; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; margin: 0px 10px 0px 0px; padding: 7px 10px; background: rgb(239, 239, 239) url('feed-title-white.jpg') repeat-x scroll center top; border: 1px solid rgb(204, 204, 204); display: block; }
+#wp125adwrap_2c::after { clear: both; content: "."; display: block; height: 0px; line-height: 0; visibility: hidden; }
+#commentlist { background: rgb(243, 243, 243) none repeat scroll 0% 0%; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px 1px; list-style: outside none none; padding: 10px; margin: 0px 10px 0px 0px; }
+#commentlist li { margin: 0px; padding-bottom: 10px; overflow: hidden; }
+#commentlist li:last-child { padding: 0px; }
+#commentlist .avatar { border: 1px solid rgb(204, 204, 204); padding: 1px; float: left; margin: 0px 5px 10px 0px; }
+#commentlist cite { font-weight: bold; font-style: normal; line-height: 20px; font-size: 12px; }
+#commentlist p { clear: left; line-height: 1.8em; }
+#commentlist .comment-author { padding: 10px 0px 0px 10px; }
+#commentlist .comment-content { padding: 0px 10px; font-size: 12px; }
+#commentlist .comment-node { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(238, 238, 238); }
+#commentlist .comment-meta { text-decoration: none; color: rgb(153, 153, 153); font-size: 11px; }
+#commentlist .comment-controls { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 10px; font-weight: bold; float: right; display: none; }
+#commentlist .comment-node:hover .comment-controls { display: block; }
+.comments-navigation { clear: both; margin: 0px 20px 10px 10px; }
+#commentsform { background: rgb(255, 255, 255) url('content-bg.jpg') repeat-x scroll center top; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 1px 1px; margin: 0px 10px 10px 0px; padding: 10px; overflow: hidden; }
+#commentsform textarea { width: 98%; height: 150px; padding: 5px; font: 12px "Lucida Grande",Arial,Helvetica,sans-serif; }
+#cancel-comment-reply-link { font-size: 11px; padding: 0px 10px; }
+#footer { margin: 5px auto; width: 980px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding-bottom: 10px; border: 1px solid rgb(204, 204, 204); }
+#footer .widgetcontainer { padding: 5px 10px; min-width: 150px; }
+#footer .widgettitle { background: transparent none repeat scroll 0% 0%; border: medium none; font-size: 11px; color: rgb(68, 68, 68); padding: 0px 0px 10px; text-transform: uppercase; }
+#footer .widgetcontent { font-size: 11px; background: transparent none repeat scroll 0% 0%; padding: 0px; border: medium none; }
+#footer .footer-message { margin: 0px; padding: 10px 15px 0px; font-size: 11px; }
+#footer .footer-message p { margin: 0px 0px 0.5em; }
+#footer-sidebar { overflow: hidden; margin: 10px 10px 0px; padding: 0px 0px 10px; border-bottom: 1px solid rgb(204, 204, 204); }
+#footer-sidebar .widgetcontainer { float: left; margin: 0px; max-width: 250px; }
+#footer-sidebar li { margin: 0px 0px 3px; }
+#footer_language_list { margin-bottom: 25px; text-align: right; }
+#footer_language_list ul { list-style: outside none none; margin: 0px; padding: 0px; }
+#footer_language_list ul li img { margin-right: 5px; }
+#footer_language_list ul li { display: inline; margin: 0px 5px; padding: 0px; }
+#footer_language_list ul li a, #footer_language_list ul li a:visited { color: rgb(0, 0, 0); text-decoration: underline; }
+#footer_language_list ul li a:hover, #footer_language_list ul li a:active { color: rgb(0, 0, 0); }
+/* ::::: http://chornobyl.in.ua/wp-content/themes/arras-theme/css/user.css ::::: */
+
+#fancybox-close {  }
+div#fancybox-outer {  }
+.mrc__translayer::before { background: transparent url('preloader_grayonwhite.gif') no-repeat scroll center center; bottom: 0px; content: ""; display: block; left: 0px; margin: auto; position: absolute; right: 0px; top: 0px; height: 12px; width: 64px; }
+a.ya-share { text-decoration: none; display: inline-block; cursor: pointer; color: rgb(63, 63, 63); }
+a.ya-share:hover, a.ya-share:hover * { color: rgb(63, 63, 63) ! important; text-decoration: none ! important; }
+.ya-share .text { font-family: Arial,sans-serif; text-decoration: none ! important; text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.1); vertical-align: top; }
+.ya-share-large .text { font-size: 12px; }
+.ya-share span.bg { background: transparent url('undefined') no-repeat scroll 0% 0%; display: inline-block; }
+.ya-share-large span.bg { height: 22px; line-height: 22px; }
+.ya-share-large .share-icon .a { background-position: left -151px; width: 26px; margin: 0px 3px 0px 0px; }
+.ya-share-large .share-counter .a { background-position: left -173px; }
+.ya-share-large .share-counter .b { background-position: right -195px; margin: 0px 0px 0px 4px; }
+.ya-share-large .share-counter .c { margin: 0px 4px 0px 0px; padding: 0px; background-position: 0px -44px; background-repeat: repeat-x; }
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/sidebar-login/style.css?ver=3.4.2 ::::: */
+
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.2 ::::: */
+
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=3.4.2 ::::: */
+
+#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 110004; display: none; }
+#fancybox-loading div { position: absolute; top: 0px; left: 0px; width: 40px; height: 480px; background-image: url('fancybox.png'); }
+#fancybox-overlay { position: absolute; top: 0px; left: 0px; width: 100%; z-index: 110000; display: none; }
+#fancybox-tmp { padding: 0px; margin: 0px; border: 0px none; overflow: auto; display: none; }
+#fancybox-wrap { position: absolute; top: 0px; left: 0px; padding: 20px; z-index: 110001; outline: medium none; display: none; }
+#fancybox-outer { position: relative; width: 100%; height: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#fancybox-content { width: 0px; height: 0px; padding: 0px; outline: medium none; position: relative; overflow: hidden; z-index: 110002; border: 0px solid rgb(255, 255, 255); }
+#fancybox-close { position: absolute; width: 30px; height: 30px; background: transparent url('fancybox.png') repeat scroll -40px 0px; cursor: pointer; z-index: 110003; display: none; }
+#fancybox-left, #fancybox-right { position: absolute; bottom: 0px; height: 100%; width: 35%; cursor: pointer; outline: medium none; background: transparent url('blank.gif') repeat scroll 0% 0%; z-index: 110002; display: none; }
+#fancybox-left { left: 0px; }
+#fancybox-right { right: 0px; }
+#fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 110002; display: block; }
+#fancybox-left-ico { background-image: url('fancybox.png'); background-position: -40px -30px; }
+#fancybox-right-ico { background-image: url('fancybox.png'); background-position: -40px -60px; }
+#fancybox-left:hover, #fancybox-right:hover { visibility: visible; }
+#fancybox-left:hover span { left: 20px; }
+#fancybox-right:hover span { left: auto; right: 20px; }
+.fancybox-bg { position: absolute; padding: 0px; margin: 0px; border: 0px none; width: 20px; height: 20px; z-index: 100001; }
+#fancybox-bg-n { top: -20px; left: 0px; width: 100%; background-image: url('fancybox-x.png'); }
+#fancybox-bg-ne { top: -20px; right: -20px; background-image: url('fancybox.png'); background-position: -40px -162px; }
+#fancybox-bg-e { top: 0px; right: -20px; height: 100%; background-image: url('fancybox-y.png'); background-position: -20px 0px; }
+#fancybox-bg-se { bottom: -20px; right: -20px; background-image: url('fancybox.png'); background-position: -40px -182px; }
+#fancybox-bg-s { bottom: -20px; left: 0px; width: 100%; background-image: url('fancybox-x.png'); background-position: 0px -20px; }
+#fancybox-bg-sw { bottom: -20px; left: -20px; background-image: url('fancybox.png'); background-position: -40px -142px; }
+#fancybox-bg-w { top: 0px; left: -20px; height: 100%; background-image: url('fancybox-y.png'); }
+#fancybox-bg-nw { top: -20px; left: -20px; background-image: url('fancybox.png'); background-position: -40px -122px; }
+#fancybox-title { font-family: Helvetica; font-size: 12px; z-index: 110002; }
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0 ::::: */
+
+.ngg-galleryoverview ul li::before { content: "" ! important; }
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.4 ::::: */
+
+body { height: 100%; }
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-theme.css?ver=2.0.3 ::::: */
+
+.wp-cpl-widget, .wp-cpl-widget * { margin: 0px ! important; padding: 0px ! important; }
+.wp-cpl-widget { list-style: outside none none ! important; background: transparent none repeat scroll 0% 0% ! important; }
+.wp-cpl-widget li { background: transparent none repeat scroll 0% 0% ! important; float: none ! important; padding: 3px 5px ! important; margin: 2px 0px ! important; overflow: hidden ! important; }
+.wp-cpl-widget li span.wp-thumb-overlay { float: left ! important; padding: 3px ! important; line-height: 0 ! important; margin: 0px 5px 0px 0px ! important; }
+.wp-cpl-teaser { padding: 5px 0px 0px ! important; font-style: italic ! important; margin: 0px 0px 5px ! important; }
+.wp-cpl-read-more { text-align: right ! important; padding: 5px 0px 0px ! important; font-style: italic ! important; margin: 0px 0px 5px ! important; }
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-light.css?ver=2.0.3 ::::: */
+
+/* ::::: http://chornobyl.in.ua/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70 ::::: */
+
+#branding { background: transparent url('cropped-title22.jpg') no-repeat scroll 0% 0%; }
+.blog-name, .blog-name a, .blog-description { color: rgb(249, 115, 6) ! important; }
+.blog-description { opacity: 0.5; }
+/* ::::: http://chornobyl.in.ua/wp-content/themes/arras-theme/css/layouts/2c-r-fixed.css ::::: */
+
+#main { width: 960px; margin: 0px auto; position: relative; }
+#container { width: 660px; float: left; }
+#content { margin: 0px; width: 660px; overflow: hidden; }
+.main-aside { width: 300px; float: right; position: relative; }
+#secondary { clear: right; }
+#main .module, .single-post { margin-right: 10px; }
+#outer { background: rgb(244, 125, 37) none no-repeat scroll center top ! important; }
+ul.nostyle, ul.nostyle li { list-style: outside none none; background: transparent none repeat scroll 0% 0%; }
+ul.nostyle li { height: 20px; padding: 5px; margin: 0px; float: left; display: block; }
