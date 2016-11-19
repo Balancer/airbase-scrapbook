@@ -2,28 +2,6 @@
 <RDF:RDF xmlns:NS1="http://amb.vis.ne.jp/mozilla/scrapbook-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="urn:scrapbook:item20160919183341"
-                   NS1:id="20160919183341"
-                   NS1:type=""
-                   NS1:chars="UTF-8"
-                   NS1:source="http://rueconomics.ru/194757-proverennye-v-sirii-rossiiskie-roboty-gotovy-vyiti-na-mirovoi-rynok-vooruzheniya"
-                   NS1:icon="resource://scrapbook/data/20160919183341/favicon.png"
-                   NS1:title="Проверенные в Сирии российские роботы готовы выйти на мировой рынок воор"
-                   NS1:comment="#Россия #танки #роботы" />
-  <RDF:Seq RDF:about="urn:scrapbook:item20160919183906">
-    <RDF:li RDF:resource="urn:scrapbook:item20160919183341"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="urn:scrapbook:item20160919183906"
-                   NS1:id="20160919183906"
-                   NS1:type="folder"
-                   NS1:title="Роботы"
-                   NS1:chars=""
-                   NS1:icon=""
-                   NS1:source=""
-                   NS1:comment="" />
-  <RDF:Seq RDF:about="urn:scrapbook:root">
-    <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
-  </RDF:Seq>
   <RDF:Seq RDF:about="urn:scrapbook:item20160919183846">
     <RDF:li RDF:resource="urn:scrapbook:item20160919183906"/>
   </RDF:Seq>
@@ -35,4 +13,37 @@
                    NS1:icon=""
                    NS1:source=""
                    NS1:comment="" />
+  <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161119072301"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="urn:scrapbook:item20160919183906">
+    <RDF:li RDF:resource="urn:scrapbook:item20160919183341"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20160919183906"
+                   NS1:id="20160919183906"
+                   NS1:type="folder"
+                   NS1:title="Роботы"
+                   NS1:chars=""
+                   NS1:icon=""
+                   NS1:source=""
+                   NS1:comment="" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20161119072301">
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20161119072301"
+                   NS1:id="20161119072301"
+                   NS1:type="folder"
+                   NS1:title="Чернобыль"
+                   NS1:chars=""
+                   NS1:icon=""
+                   NS1:source=""
+                   NS1:comment="" />
+  <RDF:Description RDF:about="urn:scrapbook:item20160919183341"
+                   NS1:id="20160919183341"
+                   NS1:type=""
+                   NS1:chars="UTF-8"
+                   NS1:source="http://rueconomics.ru/194757-proverennye-v-sirii-rossiiskie-roboty-gotovy-vyiti-na-mirovoi-rynok-vooruzheniya"
+                   NS1:icon="resource://scrapbook/data/20160919183341/favicon.png"
+                   NS1:title="Проверенные в Сирии российские роботы готовы выйти на мировой рынок воор"
+                   NS1:comment="#Россия #танки #роботы" />
 </RDF:RDF>
