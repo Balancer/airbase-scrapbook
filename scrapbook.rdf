@@ -10,6 +10,14 @@
                    NS1:icon="resource://scrapbook/data/20161119072826/favicon.png"
                    NS1:source="http://engineering-ru.livejournal.com/479308.html"
                    NS1:comment="" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161119075115"
+                   NS1:id="20161119075115"
+                   NS1:type=""
+                   NS1:title="Клин (роботизированный комплекс)"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://engineering-machine.ru/sprp/52-klin-robotizirovannyy-kompleks.html"
+                   NS1:icon="resource://scrapbook/data/20161119075115/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161119073206"
                    NS1:id="20161119073206"
                    NS1:type=""
@@ -37,6 +45,7 @@
     <RDF:li RDF:resource="urn:scrapbook:item20161119072438"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119072826"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119073206"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161119075115"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20161119072301"
                    NS1:id="20161119072301"
