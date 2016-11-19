@@ -69,11 +69,11 @@
   <RDF:Description RDF:about="urn:scrapbook:item20161119075530"
                    NS1:id="20161119075530"
                    NS1:type=""
-                   NS1:title="ЧАЭС: Робот и робототехника на ликвидации аварии"
                    NS1:chars="UTF-8"
-                   NS1:comment=""
                    NS1:source="http://chornobyl.in.ua/robot.html"
-                   NS1:icon="resource://scrapbook/data/20161119075530/favicon.ico" />
+                   NS1:icon="resource://scrapbook/data/20161119075530/favicon.ico"
+                   NS1:title="ЧАЭС: Робот и робототехника на ликвидации аварии"
+                   NS1:comment="#Чернобыль #роботы" />
   <RDF:Description RDF:about="urn:scrapbook:item20160919183341"
                    NS1:id="20160919183341"
                    NS1:type=""
