@@ -353,6 +353,7 @@ DIV.lj_ippu_app .b-select-users::after { content: "."; display: block; visibilit
 }
 @media all and (max-width: 400px) {
 }
+.b-icon-scapital { float: left; width: 16px; height: 16px; margin: 0px 2px 0px 0px; background-image: url('icon-social-capital.png'); background-position: 0px 50%; background-repeat: no-repeat; }
 @media all and (max-width: 480px) {
 }
 .b-fader { display: none; position: fixed; top: 0px; left: 0px; z-index: 5000; width: 100%; height: 100%; opacity: 0.6; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
@@ -961,7 +962,7 @@ HTML BODY .ljlikus-counter { text-decoration: none ! important; border: medium n
 .b-updateform-bubble-user-fields { text-align: left; }
 .b-bubble-user .b-updateform-bubble-input-wrapper { display: block; }
 .b-bubble-user .b-updateform-bubble-input, .b-bubble-user .b-updateform-bubble-input[type="text"] { width: 100%; margin: 3px 0px; padding: 3px 2px 3px 22px; box-sizing: border-box; font-weight: 700; color: rgb(0, 81, 183); }
-.b-updateform-bubble-input-username .b-updateform-bubble-input-pic { position: absolute; top: 50%; left: 5px; width: 16px; height: 16px; margin: -8px 0px 0px; padding: 0px; background: transparent url('userinfo.gif') no-repeat scroll 0% 0%; font: 0px/0 serif; }
+.b-updateform-bubble-input-username .b-updateform-bubble-input-pic { position: absolute; top: 50%; left: 5px; width: 16px; height: 16px; margin: -8px 0px 0px; padding: 0px; background: transparent url('userinfo_001.gif') no-repeat scroll 0% 0%; font: 0px/0 serif; }
 .b-updateform-bubble-input-title { display: none; margin: 10px 0px 0px; }
 .b-bubble-user .b-updateform-bubble-input-title .b-updateform-bubble-input, .b-bubble-user .b-updateform-bubble-input-title .b-updateform-bubble-input[type="text"] { width: 240px; padding-left: 2px; }
 .b-updateform-bubble-user-button { text-align: right; }
@@ -1514,8 +1515,23 @@ HTML BODY .b-discoverytimes .b-discoverytimes-item-body A:hover { color: rgb(85,
 .b-contextualhover::after, .b-contextualhover::before { content: ""; display: table; }
 .b-contextualhover::after { clear: both; }
 .b-contextualhover, .b-contextualhover DIV, .b-contextualhover H3, .b-contextualhover IMG, .b-contextualhover INPUT, .b-contextualhover LABEL, .b-contextualhover LI, .b-contextualhover OL, .b-contextualhover P, .b-contextualhover SPAN, .b-contextualhover UL { padding: 0px; margin: 0px; color: rgb(0, 0, 0); }
+.b-contextualhover .b-contextualhover-title H3, .b-contextualhover P { margin-bottom: 3px; line-height: 16px; font-size: 12px; }
+.b-contextualhover IMG { border: medium none; }
 BODY:not(.s-schemius) .b-contextualhover A:link, BODY:not(.s-schemius) .b-contextualhover A:visited { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-bottom: 0px none ! important; text-decoration: none ! important; color: rgb(0, 0, 204) ! important; }
 BODY:not(.s-schemius) .b-contextualhover A:active, BODY:not(.s-schemius) .b-contextualhover A:focus, BODY:not(.s-schemius) .b-contextualhover A:hover { border-bottom: 0px none ! important; text-decoration: underline ! important; color: rgb(0, 0, 204) ! important; }
+.b-contextualhover .b-contextualhover-section { overflow: hidden; padding: 0px 15px 0px 3px; }
+.b-contextualhover .b-contextualhover-side { float: right; width: 60px; }
+.b-contextualhover .b-contextualhover-userpic { float: right; width: 60px; height: 60px; text-align: right; }
+.b-contextualhover .b-contextualhover-userpic A, .b-contextualhover .b-contextualhover-userpic A:hover { border: medium none ! important; }
+.b-contextualhover .b-contextualhover-userpic IMG { max-width: 60px; max-height: 60px; border: medium none; }
+.b-contextualhover .b-contextualhover-title { padding-bottom: 5px; }
+.b-contextualhover .b-contextualhover-title H3 { font-weight: 400; font-style: normal; }
+.b-contextualhover .b-contextualhover-options { margin: 0px; padding: 5px 0px 2px; border-top: 1px dotted rgb(211, 211, 211); list-style: outside none none; }
+.b-contextualhover .b-contextualhover-options LI { margin-bottom: 3px; line-height: 16px; font-size: 12px; }
+.b-contextualhover .b-contextualhover-options LI A:hover { text-decoration: underline ! important; }
+.b-contextualhover .b-contextualhover-param { line-height: 18px; margin: 0px 0px 6px; }
+.b-contextualhover .b-contextualhover-param-item { list-style: outside none none; }
+.b-contextualhover-param-item .b-icon-scapital { margin: 0px 2px 0px 0px; }
 .b-msgsystem-wrapper { width: 100%; height: auto; }
 .b-msgsystem-wrapper.b-msgsystem-wrapper-fixed { position: fixed; top: 0px; left: 0px; z-index: 5000; overflow: hidden; padding: 0px 0px 10px; }
 .b-msgsystem-wrapper-ontop.b-msgsystem-wrapper.b-msgsystem-wrapper-fixed { position: absolute; top: 60px; z-index: 4997; }
