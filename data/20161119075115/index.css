@@ -1,0 +1,98 @@
+/* ::::: http://engineering-machine.ru/templates/engi/style/styles.css ::::: */
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input { margin: 0px; padding: 0px; }
+body { background: rgb(243, 242, 233) url('pagebgtop.jpg') repeat-x scroll 50% 0px; color: rgb(0, 0, 0); overflow-wrap: break-word; }
+h1, h2, h3, h4, h5 { line-height: normal; }
+h1 { font-size: 1.25em; }
+h3 { font-size: 1.15em; }
+h4 { font-size: 1.1em; }
+a { color: rgb(59, 81, 99); text-decoration: underline; }
+a:hover { text-decoration: none; }
+a img { border: 0px none; }
+input, textarea, select, button, body { font: 9pt "Arial"; color: rgb(102, 102, 102); }
+input, textarea, select, button, a { outline: medium none; }
+@font-face {
+	font-family: "PFSquareSansProBold";
+	font-style: normal;
+	font-weight: bold;
+	src: local("PF Square Sans Pro"), local("../fonts/PFSquareSansProBold"), url('pfsquare-webfont.woff') format("woff"), url('pfsquare-webfont.ttf') format("truetype"), url('pfsquare-webfont.svg') format("svg");
+}
+ul { margin: 0px 0px 18px 2em; list-style: outside none disc; }
+.reset, .reset li { list-style: outside none none; margin: 0px; }
+.clr { clear: both; }
+.thide2, .htmenu2 span { overflow: hidden; display: block; height: 25px; line-height: normal; }
+.lcol, .rcol, form { display: inline; }
+.lcol { float: left; }
+.rcol { float: right; }
+.wrapper { max-width: 1120px; width: 990px; text-align: left; margin: 0px auto; }
+.wwide { width: 100%; }
+.wrapper, .wwide { min-width: 990px; }
+#header { height: 119px; padding: 0px 0px 0px 322px; background: transparent url('light.png') no-repeat scroll center center; }
+#header span { margin: -8px 0px 0px -322px; width: 305px; float: left; padding: 0px 17px 31px 0px; }
+#header span a { display: block; width: 200px; margin-top: 50px; padding-left: 10px; padding-top: 6px; background: transparent url('bg_buttum.png') repeat scroll left center; border-radius: 3px; border: 1px solid rgb(0, 0, 0); color: rgb(255, 255, 255); text-decoration: none; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); text-transform: uppercase; text-shadow: 1px 1px 1px black; font-size: 1.25em; }
+#header .rcol { padding-top: 43px; width: 100%; }
+.headlinks { margin-top: 10px; }
+.headlinks ul, .headlinks ul li, .headlinks, .headsoc, .headsoc a, ul.loginbox li { float: right; }
+.headlinks ul { margin-left: -11px; }
+.headlinks ul li {  }
+.headlinks ul a, ul.loginbox li a { color: rgb(255, 255, 255); padding: 7px 20px; text-decoration: none; text-transform: uppercase; text-shadow: 1px 1px 1px black; }
+.reset a:hover { background: rgb(0, 0, 0) none repeat scroll 0% 0%; border-radius: 6px; }
+.loginbox { display: inline; }
+ul.loginbox { line-height: 27px; }
+ul.loginbox li { margin-left: 10px; }
+.loginbtn a { text-decoration: none; font-size: 1.1em; display: block; width: 66px; padding-bottom: 17px; background: transparent url('loginbtn.png') no-repeat scroll 50% 0px; }
+.loginbtn a b { text-align: center; display: block; cursor: pointer; height: 26px; background-color: rgb(219, 20, 61); }
+.loginbtn a:hover { background-position: 50% 100%; }
+.loginbtn a:hover b { background-color: rgb(241, 52, 93); }
+.logform li.lfield { margin-bottom: 10px; }
+.logform li.lbtn { text-align: center; }
+.logform li.lfield input { width: 265px; }
+.logform li.lfchek input { width: 13px; border: medium none; background: transparent none repeat scroll 0% 0%; }
+.logform li.lfchek label { display: inline; margin-bottom: 0.2em; }
+.shadlr { width: 100%; background: transparent url('shadlr.png') no-repeat scroll 0% 0%; }
+.shadlr .shadlr { background-position: 100% 0px; }
+.container { margin: 0px; }
+.lcol { border-right: 1px solid rgb(236, 236, 236); }
+.body { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 3px; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); margin-bottom: 0px; }
+.vsep { padding: 0px 313px 0px 0px; }
+#sidebar { padding: 5px; width: 300px; margin: 0px -313px 0px 0px; height: 100%; }
+#midside { width: 100%; }
+#midside img { max-width: 630px; }
+.fbutton, .vresult { border: 0px none; background: transparent none repeat scroll 0% 0%; cursor: pointer; }
+.fbutton { border: 1px solid rgb(245, 183, 78); border-radius: 20px; text-shadow: 1px 1px 1px rgb(255, 255, 255); background: rgb(255, 255, 255) url('grad2.png') repeat-x scroll center bottom; font-weight: bold; height: 32px; text-align: center; width: 100px; }
+.fbutton:hover, .vresult:hover { box-shadow: 0px 1px 5px -2px black; }
+button.fbutton span { cursor: pointer; display: block; }
+.block { margin: 0px 10px 10px; width: 280px; }
+.block .dtop { overflow: hidden; height: 44px; border-bottom: 1px solid rgb(236, 236, 236); margin-bottom: 14px; }
+.block .dtop .btl { margin-top: 14px; }
+h4.btl { font: 700 9pt "Arial"; color: rgb(102, 102, 102); }
+#slidemenu {  }
+.nameus4 { background: transparent url('bg_buttum.png') repeat scroll left top; border: 1px solid rgb(0, 0, 0); border-radius: 3px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.506); color: rgb(255, 255, 255); display: block; text-decoration: none; text-shadow: 1px 1px 1px black; text-transform: uppercase; width: 181px; height: 32px; line-height: 29px; margin-top: 30px; float: right; font-weight: 700; padding-left: 10px; }
+#slidemenu li a, #slidemenu li span { text-decoration: none; color: rgb(31, 41, 49); display: block; border: 1px solid rgb(226, 226, 226); padding: 0px 15px; height: 29px; line-height: 28px; background: transparent url('grad.png') repeat-x scroll center bottom; border-radius: 2px; margin-bottom: 5px; }
+#slidemenu li a:hover, #slidemenu li span:hover { background: transparent url('grad2.png') repeat-x scroll center bottom; border: 1px solid rgb(245, 183, 78); text-shadow: 1px 1px 1px rgb(255, 255, 255); }
+.footbg { background: transparent url('footer.png') repeat-x scroll center bottom; }
+#footer { height: 91px; padding-left: 13px; }
+.copyright { margin-top: 29px; float: left; }
+.base { border-bottom: 1px solid rgb(231, 231, 231); }
+.base .btl { margin-bottom: 0.2em; }
+.base .btl a, .base .btl { text-decoration: none; color: rgb(85, 85, 85); border-bottom: 1px solid rgb(231, 231, 231); padding: 15px 10px; font: 700 14pt "Arial"; }
+.argcat { padding-left: 10px; color: rgb(108, 131, 142); background: transparent url('argcat.png') no-repeat scroll 1px 3px; font-size: 0.9em; margin-bottom: 10px; }
+.storenumber, .maincont, .berrors, .basecont, .fullstory, .mass_comments_action { margin-bottom: 13px; text-align: justify; }
+.base .maincont { padding: 15px; border-top: 1px solid rgb(223, 228, 233); background: transparent url('shadlite.png') no-repeat scroll 10px 1px; font-size: 15px; }
+.shadowbot { background: transparent url('shadow.png') no-repeat scroll center top; height: 250px; }
+.maincont img { padding: 5px; border: 1px solid rgb(209, 209, 209); margin-right: 10px; margin-bottom: 10px; }
+.fieldtr select, .textin, .f_textarea, .f_input, .xfields textarea, .xprofile textarea, .xfields input, .xprofile input, .xfields select, .xprofile select, .mass_comments_action select, .logform li.lfield input { padding: 2px; background: rgb(255, 255, 255) url('fields.png') repeat-x scroll 0% 0%; border: 1px solid rgb(188, 192, 194); }
+.storenumber { font-weight: bold; }
+.topnews a { display: block; text-decoration: none; transition: all 0.3s ease 0s; margin: 3px 5px; border-left: 3px solid rgb(67, 67, 67); text-indent: 10px; text-transform: uppercase; }
+.topnews a:hover { text-decoration: none; border-color: rgb(155, 222, 54); color: rgb(155, 222, 54); }
+.rel-news { margin: 20px; }
+.rel-title { font-size: 16px; }
+.speedbar { margin: 10px; }
+.search-block { width: 207px; height: 32px; position: relative; background: transparent url('search-block.png') no-repeat scroll left top; }
+.form-text { color: rgb(111, 111, 111); font-size: 11px; border: 0px none; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; position: absolute; left: 13px; top: 9px; width: 150px; }
+.form-search { position: absolute; right: 0px; top: 0px; }
+/* ::::: http://engineering-machine.ru/templates/engi/style/engine.css ::::: */
+
+.ui-helper-clearfix::after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }
+.clr { clear: both; }
+.highslide img { cursor: url('zoomin.cur'), pointer ! important; }
