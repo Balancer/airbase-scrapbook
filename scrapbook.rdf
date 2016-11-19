@@ -18,14 +18,6 @@
                    NS1:icon="resource://scrapbook/data/20161119075115/favicon.ico"
                    NS1:title="Клин (роботизированный комплекс)"
                    NS1:comment="#Чернобыль #роботы" />
-  <RDF:Description RDF:about="urn:scrapbook:item20161119073206"
-                   NS1:id="20161119073206"
-                   NS1:type=""
-                   NS1:title="ЧАЭС: Робот и робототехника на ликвидации аварии"
-                   NS1:chars="UTF-8"
-                   NS1:comment=""
-                   NS1:source="http://chornobyl.in.ua/robot.html"
-                   NS1:icon="resource://scrapbook/data/20161119073206/favicon.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:item20160919183846">
     <RDF:li RDF:resource="urn:scrapbook:item20160919183906"/>
   </RDF:Seq>
@@ -44,7 +36,6 @@
   <RDF:Seq RDF:about="urn:scrapbook:item20161119072301">
     <RDF:li RDF:resource="urn:scrapbook:item20161119072438"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119072826"/>
-    <RDF:li RDF:resource="urn:scrapbook:item20161119073206"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119075115"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20161119072301"
