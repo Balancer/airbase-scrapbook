@@ -25,6 +25,7 @@
                    NS1:source=""
                    NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090051">
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090145"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306090051"
                    NS1:id="20170306090051"
@@ -45,6 +46,14 @@
                    NS1:icon=""
                    NS1:source=""
                    NS1:comment="" />
+  <RDF:Description RDF:about="urn:scrapbook:item20170306090145"
+                   NS1:id="20170306090145"
+                   NS1:type=""
+                   NS1:title="Bouaké : bombardement des forces françaises"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://www.troupesdemarine.org/outils/bulletin/news/fiches/nw000840.htm"
+                   NS1:icon="resource://scrapbook/data/20170306090145/favicon.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
     <RDF:li RDF:resource="urn:scrapbook:item20170306085930"/>
     <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
