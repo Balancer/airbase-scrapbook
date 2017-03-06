@@ -62,6 +62,7 @@
     <RDF:li RDF:resource="urn:scrapbook:item20161119072301"/>
   </RDF:Seq>
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090711">
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090740"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306090711"
                    NS1:id="20170306090711"
@@ -131,6 +132,14 @@
                    NS1:icon="resource://scrapbook/data/20161119075115/favicon.ico"
                    NS1:title="Клин (роботизированный комплекс)"
                    NS1:comment="#Чернобыль #роботы" />
+  <RDF:Description RDF:about="urn:scrapbook:item20170306090740"
+                   NS1:id="20170306090740"
+                   NS1:type=""
+                   NS1:title="Штурмовик Су-39 разрежет группировку НАТО как нож масло"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://super-orujie.ru/blog/43862304010/SHturmovik-Su-39-razrezhet-gruppirovku-NATO-kak-nozh-maslo?tmd=1"
+                   NS1:icon="resource://scrapbook/data/20170306090740/icon.jpeg" />
   <RDF:Description RDF:about="urn:scrapbook:item20160919183341"
                    NS1:id="20160919183341"
                    NS1:type=""
