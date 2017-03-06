@@ -57,7 +57,6 @@
                    NS1:source="http://www.troupesdemarine.org/outils/bulletin/news/fiches/nw000840.htm"
                    NS1:icon="resource://scrapbook/data/20170306090145/favicon.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
-    <RDF:li RDF:resource="urn:scrapbook:item20170306090625"/>
     <RDF:li RDF:resource="urn:scrapbook:item20170306085930"/>
     <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119072301"/>
@@ -103,6 +102,16 @@
                    NS1:icon=""
                    NS1:source=""
                    NS1:comment="" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20170306090643">
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20170306090643"
+                   NS1:id="20170306090643"
+                   NS1:type="folder"
+                   NS1:title="Россия"
+                   NS1:chars=""
+                   NS1:icon=""
+                   NS1:source=""
+                   NS1:comment="" />
   <RDF:Description RDF:about="urn:scrapbook:item20161119075115"
                    NS1:id="20161119075115"
                    NS1:type=""
@@ -137,6 +146,8 @@
                    NS1:comment="#Чернобыль #роботы" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306085930">
     <RDF:li RDF:resource="urn:scrapbook:item20170306085943"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090625"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090643"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306085930"
                    NS1:id="20170306085930"
