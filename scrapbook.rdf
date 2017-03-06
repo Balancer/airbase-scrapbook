@@ -27,6 +27,7 @@
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090051">
     <RDF:li RDF:resource="urn:scrapbook:item20170306090145"/>
     <RDF:li RDF:resource="urn:scrapbook:item20170306090246"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090433"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306090051"
                    NS1:id="20170306090051"
@@ -117,6 +118,14 @@
                    NS1:icon="resource://scrapbook/data/20160919183341/favicon.png"
                    NS1:title="Проверенные в Сирии российские роботы готовы выйти на мировой рынок воор"
                    NS1:comment="#Россия #танки #роботы" />
+  <RDF:Description RDF:about="urn:scrapbook:item20170306090433"
+                   NS1:id="20170306090433"
+                   NS1:type=""
+                   NS1:title="Western &amp; Northern Africa Database"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://web.archive.org/web/20141008073656/http://www.acig.org/artman/publish/article_463.shtml"
+                   NS1:icon="resource://scrapbook/data/20170306090433/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161119075530"
                    NS1:id="20161119075530"
                    NS1:type=""
