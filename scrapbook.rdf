@@ -128,6 +128,16 @@
                    NS1:icon="resource://scrapbook/data/20160919183341/favicon.png"
                    NS1:title="Проверенные в Сирии российские роботы готовы выйти на мировой рынок воор"
                    NS1:comment="#Россия #танки #роботы" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20170306090701">
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20170306090701"
+                   NS1:id="20170306090701"
+                   NS1:type="folder"
+                   NS1:title="Новый каталог"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="" />
   <RDF:Description RDF:about="urn:scrapbook:item20170306090433"
                    NS1:id="20170306090433"
                    NS1:type=""
@@ -147,7 +157,6 @@
   <RDF:Seq RDF:about="urn:scrapbook:item20170306085930">
     <RDF:li RDF:resource="urn:scrapbook:item20170306085943"/>
     <RDF:li RDF:resource="urn:scrapbook:item20170306090625"/>
-    <RDF:li RDF:resource="urn:scrapbook:item20170306090643"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306085930"
                    NS1:id="20170306085930"
@@ -158,6 +167,8 @@
                    NS1:source=""
                    NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090625">
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090643"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090701"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306090625"
                    NS1:id="20170306090625"
