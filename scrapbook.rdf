@@ -75,13 +75,12 @@
   <RDF:Description RDF:about="urn:scrapbook:item20170306085943"
                    NS1:id="20170306085943"
                    NS1:type="folder"
-                   NS1:title="Новый каталог"
+                   NS1:title="Войны"
                    NS1:chars=""
-                   NS1:comment=""
                    NS1:icon=""
-                   NS1:source="" />
+                   NS1:source=""
+                   NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
-    <RDF:li RDF:resource="urn:scrapbook:item20170306085943"/>
     <RDF:li RDF:resource="urn:scrapbook:item20170306085930"/>
     <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119072301"/>
@@ -95,6 +94,7 @@
                    NS1:title="ЧАЭС: Робот и робототехника на ликвидации аварии"
                    NS1:comment="#Чернобыль #роботы" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306085930">
+    <RDF:li RDF:resource="urn:scrapbook:item20170306085943"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306085930"
                    NS1:id="20170306085930"
