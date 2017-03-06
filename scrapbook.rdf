@@ -24,6 +24,16 @@
                    NS1:icon=""
                    NS1:source=""
                    NS1:comment="" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20170306090051">
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20170306090051"
+                   NS1:id="20170306090051"
+                   NS1:type="folder"
+                   NS1:title="Новый каталог"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20160919183846">
     <RDF:li RDF:resource="urn:scrapbook:item20160919183906"/>
   </RDF:Seq>
@@ -50,6 +60,7 @@
                    NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306085943">
     <RDF:li RDF:resource="urn:scrapbook:item20170306090016"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090051"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306085943"
                    NS1:id="20170306085943"
