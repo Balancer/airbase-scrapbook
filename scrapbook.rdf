@@ -66,11 +66,11 @@
   <RDF:Description RDF:about="urn:scrapbook:item20170306090711"
                    NS1:id="20170306090711"
                    NS1:type="folder"
-                   NS1:title="Новый каталог"
+                   NS1:title="Су-39"
                    NS1:chars=""
-                   NS1:comment=""
                    NS1:icon=""
-                   NS1:source="" />
+                   NS1:source=""
+                   NS1:comment="" />
   <RDF:Description RDF:about="urn:scrapbook:item20161119072826"
                    NS1:id="20161119072826"
                    NS1:type=""
@@ -114,7 +114,6 @@
                    NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090643">
     <RDF:li RDF:resource="urn:scrapbook:item20170306090701"/>
-    <RDF:li RDF:resource="urn:scrapbook:item20170306090711"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306090643"
                    NS1:id="20170306090643"
@@ -141,6 +140,7 @@
                    NS1:title="Проверенные в Сирии российские роботы готовы выйти на мировой рынок воор"
                    NS1:comment="#Россия #танки #роботы" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090701">
+    <RDF:li RDF:resource="urn:scrapbook:item20170306090711"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20170306090701"
                    NS1:id="20170306090701"
