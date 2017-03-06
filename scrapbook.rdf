@@ -152,11 +152,11 @@
   <RDF:Description RDF:about="urn:scrapbook:item20170306090807"
                    NS1:id="20170306090807"
                    NS1:type=""
-                   NS1:title="&lt;Средствами радиотехнической разведки самолетов и вертолетов РЭБ российс"
+                   NS1:title="Средствами радиотехнической разведки самолетов и вертолетов РЭБ..."
                    NS1:chars="UTF-8"
-                   NS1:comment=""
+                   NS1:icon="resource://scrapbook/data/20170306090807/icon.jpeg"
                    NS1:source="http://super-orujie.ru/blog/43862304010/SHturmovik-Su-39-razrezhet-gruppirovku-NATO-kak-nozh-maslo?tmd=1"
-                   NS1:icon="resource://scrapbook/data/20170306090807/icon.jpeg" />
+                   NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20170306090701">
     <RDF:li RDF:resource="urn:scrapbook:item20170306090711"/>
   </RDF:Seq>
