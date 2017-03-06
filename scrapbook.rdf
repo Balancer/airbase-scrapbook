@@ -70,7 +70,18 @@
                    NS1:icon="resource://scrapbook/data/20161119075115/favicon.ico"
                    NS1:title="Клин (роботизированный комплекс)"
                    NS1:comment="#Чернобыль #роботы" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20170306085943">
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20170306085943"
+                   NS1:id="20170306085943"
+                   NS1:type="folder"
+                   NS1:title="Новый каталог"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20170306085943"/>
     <RDF:li RDF:resource="urn:scrapbook:item20170306085930"/>
     <RDF:li RDF:resource="urn:scrapbook:item20160919183846"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161119072301"/>
